@@ -8,32 +8,24 @@
 
 ### 文檔編輯和IDE
 
-在我的日常開發和文檔編輯工作中，我選擇了以下編輯器組合來滿足不同場景的需求：
+#### [Visual Studio Code](https://code.visualstudio.com/)（VSCode）
 
-#### [Visual Studio Code](https://code.visualstudio.com/)
-主要用於專案開發和管理。VSCode 是我的主力 IDE，用於：
-- 整個專案的開發和版本控制
-- 多檔案編輯和搜尋
-- Git 整合操作
-- 擴充套件生態系統支援（如程式碼格式化、語法檢查等）
-- 終端機整合，方便執行各種命令
+我很少手碼Code，所以IDE主要是現在配合AI輔助工具Vibe Coding時檢查及少量編輯內容用。於是比起輔助編碼的功能，頁面的呈現、UI美觀和功能，以及可以遠端SSH編輯等都成為我主要的需求。Git版本控制方便、Copilot的輔助現在也在穩步提高中。
 
 #### [EmEditor](https://www.emeditor.com/)
-專門用於處理大型檔案和高效能文字編輯。選擇 EmEditor 的原因：
-- 極快的大檔案開啟速度（可處理 GB 級別的檔案）
-- 強大的正規表達式搜尋和取代功能
-- 優秀的編碼支援，特別是處理各種字元編碼
-- 輕量級啟動，適合快速編輯單一檔案
+
+除了付費這點，真的是超快速編輯純文字和CSV的首選，沒有之一。正則表達搜索也非常強。
 
 #### [Sublime Text](https://www.sublimetext.com/)
-作為輕量級編輯器的補充選擇。使用 Sublime Text 的場景：
-- 快速查看和編輯配置檔案
-- 多重選取和批次編輯
-- 優雅的介面和流暢的操作體驗
-- Package Control 豐富的套件支援
 
-這三個編輯器的組合讓我能夠在不同的使用場景下都有最適合的工具選擇，大幅提升工作效率。
+Emeditor是本體戰士，Sublime Text是掛Buff的，本身非常輕量，但使用需要自己調教。先安裝好Package Control，然後調整一下基本的設定比如：
+// 移除行尾多餘的空白，保持程式碼乾淨
+    "trim_trailing_white_space_on_save": true,
+// 當焦點離開視窗時自動存檔，避免忘記存檔
+    "save_on_focus_lost": true,
+// 突顯當前游標所在的行，更容易定位
+    "highlight_line": true,
 
 ## 授權
 
-本專案內容採用 Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) 授權條款 - 詳見 [LICENSE](LICENSE) 檔案
+本專案介紹內容採用 Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) 授權條款 - 詳見 [LICENSE](LICENSE) 檔案
