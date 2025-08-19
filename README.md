@@ -19,12 +19,17 @@
 #### [Sublime Text](https://www.sublimetext.com/)
 
 Emeditor是本體戰士，Sublime Text是掛Buff的，本身非常輕量，但使用需要自己調教。先安裝好Package Control，然後調整一下基本的設定比如：
-// 移除行尾多餘的空白，保持程式碼乾淨
+
+```json
+{
+    // 移除行尾多餘的空白，保持程式碼乾淨
     "trim_trailing_white_space_on_save": true,
-// 當焦點離開視窗時自動存檔，避免忘記存檔
+    // 當焦點離開視窗時自動存檔，避免忘記存檔
     "save_on_focus_lost": true,
-// 突顯當前游標所在的行，更容易定位
-    "highlight_line": true,
+    // 突顯當前游標所在的行，更容易定位
+    "highlight_line": true
+}
+```
 
 ## 授權
 
