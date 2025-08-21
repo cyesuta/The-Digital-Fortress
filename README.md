@@ -4,7 +4,7 @@
 
 這是一個個人使用經驗分享專案，主要介紹和記錄我所選擇使用的各種軟體和硬體配置。
 
-## 內容概述
+## 內容
 
 ### 文檔編輯和IDE
 
@@ -30,6 +30,22 @@ Emeditor是本體戰士，Sublime Text是掛Buff的，本身非常輕量，但�
     "highlight_line": true
 }
 ```
+
+### 批次重命名軟體
+
+在處理大量檔案時，批次重命名工具是不可或缺的。以下是我常用的三個工具：
+
+#### [ReNamer](https://www.den4b.com/products/renamer)
+
+ReNamer 是功能最強大的批次重命名工具之一。支援正則表達式、腳本（PascalScript）、多步驟規則鏈，可以處理極其複雜的重命名需求。介面清晰，預覽功能完善，是我處理複雜重命名任務的首選。
+
+#### [Advanced Renamer](https://www.advancedrenamer.com/)
+
+免費且功能豐富的批次重命名工具。支援標籤式命名方法（如 <Year> <Month> 等），特別適合處理照片、影片等媒體檔案的重命名。內建多種預設模板，上手容易。
+
+#### [Bulk Rename Utility](https://www.bulkrenameutility.co.uk/)
+
+BRU 的介面初看可能會讓人卻步，但習慣後會發現其功能分區非常清晰。所有重命名選項都在同一個畫面上，可以即時預覽效果。對於需要頻繁進行不同類型重命名的用戶來說，效率極高。
 
 ## 授權
 
