@@ -79,17 +79,50 @@ Google 的地圖開發平台，提供豐富的 API 和 SDK。適合開發需要�
 
 OpenStreetMap 的開源街景平台，前身為 OpenStreetCam。支援上傳和瀏覽街景，完全開源免費。
 
-#### 功能對比表
+#### 功能對比與推薦用法
 
-| 工具 | 類型 | 3D支援 | 街景 | API | 開源 | 費用 | 最適合 |
-|------|------|--------|------|-----|------|------|--------|
-| **Google Earth** | 桌面/網頁 | ✅ 完整 | ✅ 整合 | ❌ | ❌ | 免費 | 探索和簡單分析 |
-| **Google Maps Platform** | 開發平台 | ✅ 部分 | ✅ 完整 | ✅ 豐富 | ❌ | 付費 | 商業應用開發 |
-| **ArcGIS Platform** | 專業GIS | ✅ 完整 | ❌ | ✅ 完整 | ❌ | 付費 | 專業GIS分析 |
-| **Cesium** | 3D引擎 | ✅ 專精 | ❌ | ✅ | ✅ | 免費/付費 | 3D視覺化開發 |
-| **NASA Worldview** | 衛星影像 | ❌ | ❌ | ✅ | ✅ | 免費 | 環境監測 |
-| **Mapillary** | 街景平台 | ❌ | ✅ 專精 | ✅ | ❌ | 免費 | 街景資料收集 |
-| **KartaView** | 街景平台 | ❌ | ✅ 專精 | ✅ | ✅ | 免費 | 開源街景方案 |
+| 工具 | 類型 | 最適合 | 推薦底圖/圖層 | 社群建議用法 |
+|------|------|--------|--------------|-------------|
+| **Google Earth** | 桌面/網頁 | 探索和簡單分析 | 歷史影像、KML/KMZ | 時間軸功能看歷史變遷、Pro 版錄製導覽影片 |
+| **Google Maps Platform** | 開發平台 | 商業應用開發 | Photorealistic 3D Tiles、街景 API | 搭配 Places API 做商業應用、路線規劃服務 |
+| **ArcGIS Platform** | 專業GIS | 專業GIS分析 | World Imagery、World Hillshade、World Ocean | 空間分析配 Living Atlas、整合 Cesium 做 3D |
+| **Cesium** | 3D引擎 | 3D視覺化開發 | Cesium World Terrain + Bing Maps Aerial、Earth at Night | 時空資料動態展示、IoT 即時追蹤、建築 BIM 整合 |
+| **NASA Worldview** | 衛星影像 | 環境監測 | MODIS/VIIRS、PACE 葉綠素、Black Marble 夜光 | 災害即時監測、多時相對比分析、教育用途 |
+| **Mapillary** | 街景平台 | 街景資料收集 | 群眾街景、CC BY-SA 授權 | 搭配 OSM 編輯、機器學習訓練資料、變化偵測 |
+| **KartaView** | 街景平台 | 開源街景方案 | 東南亞覆蓋、OBD-II 定位 | OSM 圖資改善、道路標誌偵測、完全離線使用 |
+
+#### 社群推薦的使用組合
+
+根據 2024 年社群回饋，以下是各平台的最佳實踐：
+
+##### 底圖選擇（Base Maps）
+- **開源首選**：OpenStreetMap + MapLibre GL（Mapbox GL 的開源分支）
+- **商業整合**：
+  - ArcGIS：World Imagery、World Hillshade、World Ocean
+  - Cesium：Cesium World Terrain + Bing Maps Aerial
+  - Google Maps Platform：Photorealistic 3D Tiles
+- **風格化地圖**：
+  - OSM Bright：通用底圖，適合展示 OSM 細節
+  - Positron：淺色底圖，適合資料視覺化
+  - Dark Matter：深色底圖，適合夜間模式
+
+##### NASA Worldview 推薦圖層
+- **2024 新增熱門**：
+  - PACE 衛星的葉綠素 a 濃度圖層（海洋監測）
+  - NOAA-21 真彩色影像（3 小時更新）
+  - Black Marble 夜間燈光（城市發展研究）
+- **災害監測**：火災、熱帶風暴、火山活動即時圖層
+- **環境變化**：MODIS/VIIRS 多時相影像對比
+
+##### 街景平台使用建議
+- **Mapillary**：CC BY-SA 授權，適合需要開放資料的專案
+- **KartaView**：專注東南亞，支援 OBD-II 車載定位，完全開源
+- **使用技巧**：同時查詢 Mapillary 和 KartaView 獲得互補覆蓋
+
+##### 開發整合趨勢
+- **2024 重點**：OGC 3D Tiles 標準支援（ArcGIS 4.29+、Cesium）
+- **跨平台整合**：ArcGIS + Cesium（20+ 官方教學）
+- **效能考量**：Leaflet（42KB）適合輕量應用，Cesium 適合 3D 視覺化
 
 ## 授權
 
