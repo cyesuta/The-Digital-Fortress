@@ -47,6 +47,50 @@ Emeditor是本體戰士，Sublime Text是掛Buff的，本身非常輕量，但�
 
 特點是每種重命名操作都有很細緻的設定選項。檔案篩選支援完整的正則表達式匹配。
 
+### 地圖資訊類程式
+
+從 2D 到 3D，從衛星影像到街景，這些工具滿足不同的地理資訊需求：
+
+#### [Google Earth](https://earth.google.com/)
+
+經典的 3D 地球瀏覽器，提供歷史影像、測量工具和 KML/KMZ 支援。桌面版 Pro 現已免費，支援進階的 GIS 功能和影片錄製。
+
+#### [Google Maps Platform](https://developers.google.com/maps)
+
+Google 的地圖開發平台，提供豐富的 API 和 SDK。適合開發需要地圖功能的應用程式，支援路線規劃、地點搜尋、街景等服務。
+
+#### [ArcGIS Platform](https://www.esri.com/en-us/arcgis/products/arcgis-platform/overview)
+
+專業 GIS 平台，提供完整的空間分析、地圖製作和資料管理功能。適合專業 GIS 分析和企業級應用。
+
+#### [Cesium](https://cesium.com/)
+
+開源的 3D 地球和地圖引擎，基於 WebGL。專精於時空資料視覺化，支援大規模 3D 場景和動態資料。
+
+#### [NASA Worldview](https://worldview.earthdata.nasa.gov/)
+
+即時查看 NASA 衛星影像的平台，提供近即時的地球觀測資料。適合監測天氣、火災、洪水等環境變化。
+
+#### [Mapillary](https://www.mapillary.com/)
+
+群眾外包的街景平台，任何人都可以上傳街景照片。提供 API 存取大量街景資料，適合需要最新街景的應用。
+
+#### [KartaView](https://kartaview.org/)
+
+OpenStreetMap 的開源街景平台，前身為 OpenStreetCam。支援上傳和瀏覽街景，完全開源免費。
+
+#### 功能對比表
+
+| 工具 | 類型 | 3D支援 | 街景 | API | 開源 | 費用 | 最適合 |
+|------|------|--------|------|-----|------|------|--------|
+| **Google Earth** | 桌面/網頁 | ✅ 完整 | ✅ 整合 | ❌ | ❌ | 免費 | 探索和簡單分析 |
+| **Google Maps Platform** | 開發平台 | ✅ 部分 | ✅ 完整 | ✅ 豐富 | ❌ | 付費 | 商業應用開發 |
+| **ArcGIS Platform** | 專業GIS | ✅ 完整 | ❌ | ✅ 完整 | ❌ | 付費 | 專業GIS分析 |
+| **Cesium** | 3D引擎 | ✅ 專精 | ❌ | ✅ | ✅ | 免費/付費 | 3D視覺化開發 |
+| **NASA Worldview** | 衛星影像 | ❌ | ❌ | ✅ | ✅ | 免費 | 環境監測 |
+| **Mapillary** | 街景平台 | ❌ | ✅ 專精 | ✅ | ❌ | 免費 | 街景資料收集 |
+| **KartaView** | 街景平台 | ❌ | ✅ 專精 | ✅ | ✅ | 免費 | 開源街景方案 |
+
 ## 授權
 
 本專案介紹內容採用 Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) 授權條款 - 詳見 [LICENSE](LICENSE) 檔案
