@@ -53,9 +53,7 @@ Emeditor是本體戰士，Sublime Text是掛Buff的，本身非常輕量，但�
 
 #### [Google Earth](https://earth.google.com/)
 
-我真的超級喜歡
-
-經典的 3D 地球瀏覽器，提供歷史影像、測量工具和 KML/KMZ 支援。桌面版 Pro 現已免費，支援進階的 GIS 功能和影片錄製。
+我真的超級喜歡的一個APP，曾經有一陣子幾乎不更新還以為要被Google放棄了。是沒有什麼上手難度的3D地球瀏覽器，桌面版的話可以看到從00年代的歷史衛星影像。可以用測量工具、導入KML/KMZ。爽的是可以結合街景使用。另外VR版本可以身臨其境的使用街景結合Earth真的超級喜歡！
 
 #### [Google Maps Platform](https://developers.google.com/maps)
 
@@ -92,6 +90,24 @@ OpenStreetMap 的開源街景平台，前身為 OpenStreetCam。支援上傳和�
 | **NASA Worldview**       | 衛星影像  | 環境監測       | MODIS/VIIRS、PACE 葉綠素、Black Marble 夜光             | 災害即時監測、多時相對比分析、教育用途        |
 | **Mapillary**            | 街景平台  | 街景資料收集   | 群眾街景、CC BY-SA 授權                                 | 搭配 OSM 編輯、機器學習訓練資料、變化偵測     |
 | **KartaView**            | 街景平台  | 開源街景方案   | 東南亞覆蓋、OBD-II 定位                                 | OSM 圖資改善、道路標誌偵測、完全離線使用      |
+
+### 同步軟體
+
+資料同步是數位工作流程的重要環節，不同的同步需求適合不同的工具：
+
+#### [GoodSync](https://www.goodsync.com/)
+
+我主要使用的同步軟體，介面直觀且功能強大。支援單向或雙向同步，可以在本地磁碟、網路磁碟、FTP、雲端儲存之間同步檔案。特別適合需要精確控制同步規則和排程的場景，比如定時備份重要資料夾到 NAS 或雲端。提供詳細的同步日誌和衝突處理選項。如需監控 GoodSync 的同步設定集記錄，請參考 [GoodSync 筆記](note/goodsync_note.md)。
+
+#### 其他同步方案建議
+
+如果你的需求不只是簡單同步：
+
+- **版本備份和增量備份**：[SyncBack](https://www.2brightsparks.com/syncback/syncback-hub.html) 是更專業的選擇，支援完整的版本控制、增量備份、差異備份等多種備份策略。可以保留多個版本的檔案歷史，設定保留天數或版本數量，適合需要回溯舊版本檔案的場景。
+
+- **多台裝置 P2P 同步**：如果需要在多台電腦之間即時同步而不依賴中央伺服器，可以考慮：
+  - [Resilio Sync](https://www.resilio.com/)：基於 BitTorrent 協議的 P2P 同步，速度快且支援選擇性同步
+  - [Syncthing](https://syncthing.net/)：完全開源免費的 P2P 同步方案，注重隱私和安全，資料不經過第三方伺服器
 
 ## 授權
 

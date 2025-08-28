@@ -1,6 +1,9 @@
 # Claude configuration
 .claude/
 
+# Crush directory
+.crush/
+
 # Node.js
 node_modules/
 npm-debug.log*
