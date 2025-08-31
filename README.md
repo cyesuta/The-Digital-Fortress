@@ -104,10 +104,22 @@ OpenStreetMap 的開源街景平台，前身為 OpenStreetCam。支援上傳和�
 如果你的需求不只是簡單同步：
 
 - **版本備份和增量備份**：[SyncBack](https://www.2brightsparks.com/syncback/syncback-hub.html) 是更專業的選擇，支援完整的版本控制、增量備份、差異備份等多種備份策略。可以保留多個版本的檔案歷史，設定保留天數或版本數量，適合需要回溯舊版本檔案的場景。
-
 - **多台裝置 P2P 同步**：如果需要在多台電腦之間即時同步而不依賴中央伺服器，可以考慮：
+
   - [Resilio Sync](https://www.resilio.com/)：基於 BitTorrent 協議的 P2P 同步，速度快且支援選擇性同步
   - [Syncthing](https://syncthing.net/)：完全開源免費的 P2P 同步方案，注重隱私和安全，資料不經過第三方伺服器
+
+### 網站計數和分析
+
+了解網站訪客行為和流量統計，對於優化網站體驗和內容策略至關重要，用的兩個一個很複雜、一個很簡單。
+
+#### [Google Analytics](https://analytics.google.com/)
+
+提供全面的訪客行為分析。可以追蹤用戶來源、瀏覽路徑、停留時間、轉換率等關鍵指標。整合 Google Ads、Search Console 等其他 Google 服務。
+
+#### [Visitor Badge](https://visitorbadge.io/)
+
+輕量級的訪客計數服務，可以快速為網站或 GitHub 專案添加訪客統計徽章。只需要簡單的 HTML 或 Markdown 程式碼即可嵌入
 
 ## 授權
 
